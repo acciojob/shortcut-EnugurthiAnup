@@ -1,5 +1,13 @@
-function shortcut(s1, s2) {
+function shortcut(s1, s2) { 
   // your code here
+let string = ''
+ if(s1== "" || s2 == ""){
+	 return string
+ }
+ string = string + s1[0] + s2[0] 
+
+ return  string
+	
 }
 
 // Do not change the code below.
